@@ -1,3 +1,4 @@
+const displayParent = document.getElementById('display')
 const display = document.getElementById('display_text')
 const text = document.getElementById('display_text').value
 const button_one = document.getElementById('one')
@@ -20,15 +21,21 @@ const button_dot = document.getElementById('dot')
 
 const digits = document.querySelectorAll('.digit')
 
+
+
 button_delete.addEventListener('click', () => {
     display.textContent = ''
+    
 
 })
+
 
 
 digits.forEach( number => {
     number.addEventListener('click' , () => {
        display.textContent = display.textContent + number.textContent
+       
+
     })
 
 })

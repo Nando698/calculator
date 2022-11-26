@@ -44,11 +44,16 @@ main {
     align-items:center;
     padding: 10px;
     color: azure;
-    font-size: 4rem;
     -webkit-box-shadow: inset -1px 1px 0px 6px rgba(71, 65, 65, 0.38);
     -moz-box-shadow: inset -1px 1px 0px 6px rgba(69, 64, 64, 0.38);
     box-shadow: inset -1px 1px 0px 6px rgba(74, 69, 69, 0.38);
+    overflow: hidden;
 }
+
+#display_text {
+    font-size: 400%;
+}
+
 
 #buttons {
     height: 75%;
